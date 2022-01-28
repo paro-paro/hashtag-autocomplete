@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <test-cmr></test-cmr>
+        <hashtag-input></hashtag-input>
     </div>
 </template>
 
@@ -22,12 +22,12 @@
     // textarea + backdrop div => implemented 
     // contenteditable div
 
-import TestCmr from './components/TestCmr'
+import HashtagInput from './components/HashtagInput'
 
 export default {
     name: 'App',
     components: {
-        TestCmr
+        HashtagInput
     }
 }
 </script>
