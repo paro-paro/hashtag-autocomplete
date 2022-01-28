@@ -1,6 +1,6 @@
 <template>
     <div :class="'row'">
-        <h4>CMRAD - Antonio Parody</h4>
+        <h4>Hashtag autocomplete</h4>
         <text-area :tags="tags_"></text-area>
     </div>
 </template>
